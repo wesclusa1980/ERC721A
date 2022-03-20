@@ -1,7 +1,7 @@
 async function main() {
     // We get the contract to deploy
-    const Erc721A = await ethers.getContractFactory("Erc721A");
-    const erc721A = await Eerc721A.deploy("Hello, Hardhat!");
+    const Erc721A = await ethers.getContractFactory("ERC721A");
+    const erc721A = await ERC721A.deploy("Hello, Hardhat!");
   
     await erc721A.deployed();
   
